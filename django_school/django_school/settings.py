@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'classroom',
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -110,7 +111,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
-]
+        ]
 
 
 # Custom Django auth settings
@@ -134,7 +135,7 @@ MESSAGE_TAGS = {
     messages.SUCCESS: 'alert-success',
     messages.WARNING: 'alert-warning',
     messages.ERROR: 'alert-danger',
-}
+    }
 
 
 # Third party apps configuration
